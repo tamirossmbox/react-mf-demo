@@ -43,8 +43,12 @@ module.exports = {
     new ModuleFederationPlugin({
       name: "home",
       filename: "remoteEntry.js",
-      remotes: {},
-      exposes: {},
+      remotes: {
+      },
+      exposes: {
+        './Header': './src/components/Header.jsx',
+        './Footer': './src/components/Footer.jsx',
+      },
       shared: {
         ...deps,
         react: {
