@@ -10,7 +10,7 @@ const App = () => (
     <h1>PAGE CONTENT</h1>
     <div>Name: mf-1</div>
     <div>Framework: react</div>
-    <div>Language: TypeScript</div>
+    <div>Language: Javascript</div>
     <div>CSS: Empty CSS</div>
     <hr />
     <Footer />
