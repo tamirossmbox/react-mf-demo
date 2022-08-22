@@ -7,8 +7,7 @@ import "./index.css";
 const App = () => (
   <div className="container">
     <Header />
-    <h1>PAGE CONTENT</h1>
-    <div>Name: mf-1</div>
+    <h2>TS-REMOTE</h2>
     <div>Framework: react</div>
     <div>Language: Javascript</div>
     <div>CSS: Empty CSS</div>
